@@ -23,6 +23,7 @@ def now_serving(num)
   if num.length == 0 
     return "There is nobody waiting to be served!"
   else 
+    name = x[0]
     
 
 end

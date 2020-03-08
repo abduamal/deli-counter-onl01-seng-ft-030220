@@ -7,7 +7,7 @@ def line(katz_deli)
   elsif i < katz_deli.length 
     line += (i + 1) + ". " + katz_deli[i] + ", "
   end
-  line = line
+  line = line.slice
 end
 
 

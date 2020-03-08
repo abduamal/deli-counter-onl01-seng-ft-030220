@@ -19,7 +19,11 @@ def take_a_number(line, name)
 end
 
 
-def now_serving(num)
-  counter = 1
-  
+def now_serving(line)
+  if line.empty?
+    "There is nobody waiting to be served!"
+  else
+    puts "currently serving #{line[0]}."
+    line.shift
+  end
 end

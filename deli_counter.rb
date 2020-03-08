@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |name|
-      line.push(" #{counter}. #{name}")
+      line.push("#{counter}. #{name}")
       counter += 1
     end
     puts "The line is currently: #{line.join(" ")}"

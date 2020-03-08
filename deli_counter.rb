@@ -26,5 +26,6 @@ def now_serving(num)
     name = num[0]
     num.splice(0, 1)
     return "Currently serving " + name + "."
+  end
 
 end

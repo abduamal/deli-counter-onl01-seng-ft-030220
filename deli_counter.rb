@@ -8,6 +8,7 @@ def line(katz_deli)
     line += (i + 1) + ". " + katz_deli[i] + ", "
   end
   line = line.insert(0, line.length-2)
+  return "The line is currently: " + line
 end
 
 
